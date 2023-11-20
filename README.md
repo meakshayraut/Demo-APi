@@ -34,17 +34,14 @@ This FastAPI application provides a basic CRUD (Create, Read, Update, Delete) AP
    Create a MongoDB database and configure the connection in the .env file.
    
 4. Run the FastAPI application:
-   *uvicorn main:app --reload*
+   **uvicorn main:app --reload**
 
    Visit *http://localhost:8000/docs* in your browser to access the Swagger documentation and test the API.
-
-  
-
 
 
 ## Acknowledgements
 
-[FastAPI Documentation](https://fastapi.tiangolo.com/)
+[FastAPI Documentation](https://fastapi.tiangolo.com/) <br />
 [MongoDB Documentation](https://docs.mongodb.com/)
    
 
