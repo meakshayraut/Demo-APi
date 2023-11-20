@@ -24,24 +24,23 @@ This FastAPI application provides a basic CRUD (Create, Read, Update, Delete) AP
 ### Installation
 
 1. Clone the repository:
-
-   ```bash
+    ```bash
    git clone https://github.com/yourusername/fastapi-crud-mongodb.git
    cd fastapi-crud-mongodb
-
-2.Install the dependencies:
-
+    
+2. Install the dependencies:
    pip install -r requirements.txt
-
+   
 3. Set up MongoDB:
-
    Create a MongoDB database and configure the connection in the .env file.
-
+   
 4. Run the FastAPI application:
-   
    uvicorn main:app --reload
-   
+
    Visit http://localhost:8000/docs in your browser to access the Swagger documentation and test the API.
+
+  
+
 
 
 ## Acknowledgements
