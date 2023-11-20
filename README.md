@@ -45,7 +45,7 @@ This FastAPI application provides a basic CRUD (Create, Read, Update, Delete) AP
 
 ## Acknowledgements
 
-[FastAPI Documentation] (https://fastapi.tiangolo.com/)
-[MongoDB Documentation] (https://docs.mongodb.com/)
+[FastAPI Documentation](https://fastapi.tiangolo.com/)
+[MongoDB Documentation](https://docs.mongodb.com/)
    
 
