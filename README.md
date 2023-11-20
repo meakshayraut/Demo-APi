@@ -1,9 +1,52 @@
-# Users WebAPI made with FastApi
+# FastAPI CRUD Application with Image Upload to MongoDB
+This FastAPI application provides a basic CRUD (Create, Read, Update, Delete) API with image upload functionality. It uses MongoDB as the database for storing data and images.
 
-In order to run this project you have to run the following code:
 
-uvicorn main:app --reload
+## Features
 
-uvicorn main:app --reload --host 127.0.0.1 --port 8000
+- Create, Read, Update, and Delete operations for a model with image upload.
+- Image files are stored in MongoDB.
 
+## Tech Stack
+
+- FastAPI: FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.7+ based on standard Python type hints.
+
+- MongoDB: MongoDB is a NoSQL database that stores data in flexible, JSON-like documents.
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- MongoDB installed and running
+
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/yourusername/fastapi-crud-mongodb.git
+   cd fastapi-crud-mongodb
+
+2.Install the dependencies:
+
+   pip install -r requirements.txt
+
+3. Set up MongoDB:
+
+   Create a MongoDB database and configure the connection in the .env file.
+
+4. Run the FastAPI application:
+   
+   uvicorn main:app --reload
+   
+   Visit http://localhost:8000/docs in your browser to access the Swagger documentation and test the API.
+
+
+## Acknowledgements
+
+FastAPI Documentation [https://fastapi.tiangolo.com/]
+MongoDB Documentation [https://docs.mongodb.com/]
+   
 
