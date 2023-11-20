@@ -1,5 +1,5 @@
 # FastAPI CRUD Application with Image Upload to MongoDB
-This FastAPI application provides a basic CRUD (Create, Read, Update, Delete) API with image upload functionality. It uses MongoDB as the database for storing data and images.
+This FastAPI application provides a CRUD (Create, Read, Update, Delete) API with image upload functionality. It uses MongoDB as the database for storing data and images.
 
 ![Screenshot (72)](https://github.com/meakshayraut/Demo-APi/assets/87926985/8404001a-3f8e-4e79-bd81-7d326d95708d)
 
